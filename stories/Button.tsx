@@ -14,7 +14,7 @@ export const Button = ({ variant, label, ...props }: ButtonProps) => {
   return (
     <button
       type="button"
-      className={`px-4 py-2 text-white rounded-full font-semibold ${
+      className={`px-6 py-2 text-white rounded-full font-semibold ${
         variant == "primary" ? "bg-indigo-600" : "bg-teal-600"
       }`}
       {...props}

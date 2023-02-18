@@ -10,6 +10,9 @@ export default {
       control: { type: "radio" },
     },
   },
+  parameters: {
+    layout: "centered",
+  },
 } as ComponentMeta<typeof Button>;
 
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
